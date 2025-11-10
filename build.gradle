@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'fabric-loom'
+}
+
+group = 'com.buddyholi.mckeycard'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Fabric API
+    modCompile 'net.fabricmc:fabric-api:${project.ext.fabric_version}'
+}
+
+sourceCompatibility = 'Java 17'
+
+targetCompatibility = 'Java 17'
