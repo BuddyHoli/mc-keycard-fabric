@@ -1,0 +1,41 @@
+{
+  "keycard.command.create.success": "Successfully created keycard: %s",
+  "keycard.command.create.already_exists": "A keycard with that name already exists",
+  "keycard.command.give.success": "Gave keycard %s to %s",
+  "keycard.command.give.not_found": "Keycard not found: %s",
+  "keycard.command.give.player_not_found": "Player not found: %s",
+  "keycard.command.list.header": "Available Keycards:",
+  "keycard.command.list.entry": "- %s (ID: %s, Color: %s)",
+  "keycard.command.list.empty": "No keycards available",
+  "keycard.command.delete.success": "Successfully deleted keycard: %s",
+  "keycard.command.delete.not_found": "Keycard not found: %s",
+  
+  "area.command.create.success": "Successfully created area: %s",
+  "area.command.create.already_exists": "An area with that name already exists",
+  "area.command.addkey.success": "Added keycard %s to area %s",
+  "area.command.addkey.area_not_found": "Area not found: %s",
+  "area.command.addkey.keycard_not_found": "Keycard not found: %s",
+  "area.command.removekey.success": "Removed keycard %s from area %s",
+  "area.command.removekey.area_not_found": "Area not found: %s",
+  "area.command.removekey.keycard_not_found": "Keycard not found: %s",
+  "area.command.list.header": "Protected Areas:",
+  "area.command.list.entry": "- %s (Dimension: %s, Size: %dx%dx%d, Keycards: %d)",
+  "area.command.list.empty": "No protected areas",
+  "area.command.delete.success": "Successfully deleted area: %s",
+  "area.command.delete.not_found": "Area not found: %s",
+  
+  "lock.command.success": "Successfully locked %s with keycard %s",
+  "lock.command.already_locked": "This %s is already locked",
+  "lock.command.keycard_not_found": "Keycard not found: %s",
+  "lock.command.no_target": "No valid target found. Please look at a block or entity",
+  
+  "unlock.command.success": "Successfully unlocked %s",
+  "unlock.command.not_locked": "This %s is not locked",
+  "unlock.command.no_target": "No valid target found. Please look at a block or entity",
+  
+  "keycard.access.denied": "Access denied! You need keycard: %s",
+  "keycard.access.denied.area": "You cannot access this area without the proper keycard",
+  
+  "item.mc-keycard-fabric.keycard": "Keycard",
+  "item.mc-keycard-fabric.keycard.tooltip": "ID: %s"
+}

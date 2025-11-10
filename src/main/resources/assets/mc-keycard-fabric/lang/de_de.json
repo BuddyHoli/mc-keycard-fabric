@@ -1,0 +1,41 @@
+{
+  "keycard.command.create.success": "Keycard erfolgreich erstellt: %s",
+  "keycard.command.create.already_exists": "Eine Keycard mit diesem Namen existiert bereits",
+  "keycard.command.give.success": "Keycard %s an %s gegeben",
+  "keycard.command.give.not_found": "Keycard nicht gefunden: %s",
+  "keycard.command.give.player_not_found": "Spieler nicht gefunden: %s",
+  "keycard.command.list.header": "Verfügbare Keycards:",
+  "keycard.command.list.entry": "- %s (ID: %s, Farbe: %s)",
+  "keycard.command.list.empty": "Keine Keycards verfügbar",
+  "keycard.command.delete.success": "Keycard erfolgreich gelöscht: %s",
+  "keycard.command.delete.not_found": "Keycard nicht gefunden: %s",
+  
+  "area.command.create.success": "Bereich erfolgreich erstellt: %s",
+  "area.command.create.already_exists": "Ein Bereich mit diesem Namen existiert bereits",
+  "area.command.addkey.success": "Keycard %s zu Bereich %s hinzugefügt",
+  "area.command.addkey.area_not_found": "Bereich nicht gefunden: %s",
+  "area.command.addkey.keycard_not_found": "Keycard nicht gefunden: %s",
+  "area.command.removekey.success": "Keycard %s von Bereich %s entfernt",
+  "area.command.removekey.area_not_found": "Bereich nicht gefunden: %s",
+  "area.command.removekey.keycard_not_found": "Keycard nicht gefunden: %s",
+  "area.command.list.header": "Geschützte Bereiche:",
+  "area.command.list.entry": "- %s (Dimension: %s, Größe: %dx%dx%d, Keycards: %d)",
+  "area.command.list.empty": "Keine geschützten Bereiche",
+  "area.command.delete.success": "Bereich erfolgreich gelöscht: %s",
+  "area.command.delete.not_found": "Bereich nicht gefunden: %s",
+  
+  "lock.command.success": "%s erfolgreich mit Keycard %s gesperrt",
+  "lock.command.already_locked": "Dieses %s ist bereits gesperrt",
+  "lock.command.keycard_not_found": "Keycard nicht gefunden: %s",
+  "lock.command.no_target": "Kein gültiges Ziel gefunden. Bitte schaue auf einen Block oder eine Entität",
+  
+  "unlock.command.success": "%s erfolgreich entsperrt",
+  "unlock.command.not_locked": "Dieses %s ist nicht gesperrt",
+  "unlock.command.no_target": "Kein gültiges Ziel gefunden. Bitte schaue auf einen Block oder eine Entität",
+  
+  "keycard.access.denied": "Zugriff verweigert! Du benötigst Keycard: %s",
+  "keycard.access.denied.area": "Du kannst diesen Bereich nicht ohne die richtige Keycard betreten",
+  
+  "item.mc-keycard-fabric.keycard": "Keycard",
+  "item.mc-keycard-fabric.keycard.tooltip": "ID: %s"
+}

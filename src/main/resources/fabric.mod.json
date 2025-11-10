@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-keycard-fabric",
+  "version": "${version}",
+  "name": "MC Keycard Fabric",
+  "description": "A comprehensive keycard system for Minecraft that allows creating keycards, protected areas, and locked blocks/entities.",
+  "authors": [
+    "BuddyHoli"
+  ],
+  "contact": {
+    "homepage": "https://github.com/BuddyHoli/mc-keycard-fabric",
+    "sources": "https://github.com/BuddyHoli/mc-keycard-fabric",
+    "issues": "https://github.com/BuddyHoli/mc-keycard-fabric/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mc-keycard-fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.buddyholi.keycard.KeycardMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {},
+  "custom": {
+    "modmenu": {
+      "badges": ["library"],
+      "links": {
+        "modmenu.discord": "https://discord.gg/example"
+      }
+    }
+  }
+}

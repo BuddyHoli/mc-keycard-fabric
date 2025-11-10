@@ -1,0 +1,76 @@
+# MC Keycard Fabric Configuration
+# This file contains configuration options for the keycard system
+
+[general]
+# Enable debug logging
+debug_mode = false
+
+# Enable mod functionality (set to false to disable all features)
+enabled = true
+
+[keycards]
+# Default color for new keycards (hex format, e.g., "#FFFFFF")
+default_color = "#FFFFFF"
+
+# Allow players to create keycards (if false, only operators can create keycards)
+allow_player_creation = false
+
+# Maximum number of keycards that can be created
+max_keycards = 100
+
+[areas]
+# Maximum number of areas that can be created
+max_areas = 50
+
+# Maximum area size in blocks (X * Y * Z)
+max_area_volume = 1000000
+
+# Minimum area size in blocks (X * Y * Z)
+min_area_volume = 1
+
+# Allow overlapping areas
+allow_overlapping = true
+
+[locks]
+# Maximum number of locked items (blocks + entities)
+max_locked_items = 500
+
+# Allow locking of any block type (if false, only specific blocks can be locked)
+allow_any_block = true
+
+# List of block types that can be locked (only used if allow_any_block is false)
+# Example: ["minecraft:chest", "minecraft:door", "minecraft:iron_door"]
+lockable_blocks = []
+
+# Allow locking of any entity type (if false, only specific entities can be locked)
+allow_any_entity = true
+
+# List of entity types that can be locked (only used if allow_any_entity is false)
+# Example: ["minecraft:item_frame", "minecraft:armor_stand"]
+lockable_entities = []
+
+[persistence]
+# Enable saving data to disk
+save_enabled = true
+
+# Directory where data is saved (relative to the world directory)
+save_directory = "mc-keycard-data"
+
+# Auto-save interval in seconds (0 to disable auto-save)
+auto_save_interval = 300
+
+# Backup data files before saving
+create_backups = true
+
+# Number of backup files to keep
+backup_count = 5
+
+[messages]
+# Show access denied messages to players
+show_access_denied = true
+
+# Show success messages for commands
+show_command_success = true
+
+# Prefix for all mod messages
+message_prefix = "§6[KeyCard]§r "
