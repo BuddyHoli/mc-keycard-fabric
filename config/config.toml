@@ -1,0 +1,4 @@
+max_copies = 8
+max_areas_per_keycard = 4
+max_items_per_keycard = 40
+additional_items = ["modid:special_door", "modid:secure_chest"]
