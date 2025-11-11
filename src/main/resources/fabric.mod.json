@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mckeycard",
+  "version": "${version}",
+  "name": "KeyCard Mod",
+  "description": "A Fabric mod to manage keycards, protected doors, containers, and areas.",
+  "authors": ["BuddyHoli"],
+  "contact": {
+    "sources": "https://github.com/BuddyHoli/mc-keycard-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/mckeycard/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.buddyholi.mckeycard.MainModClass"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.21.10"
+  }
+}
