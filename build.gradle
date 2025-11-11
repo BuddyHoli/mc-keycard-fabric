@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'fabric-loom'
+    id 'fabric-loom' version '1.5.6'
 }
 
 group = 'com.buddyholi.mckeycard'
@@ -8,13 +8,17 @@ version = '1.0.0'
 
 repositories {
     mavenCentral()
+    maven { url = 'https://maven.fabricmc.net/' }
 }
 
 dependencies {
-    // Fabric API
-    modCompile 'net.fabricmc:fabric-api:${project.ext.fabric_version}'
+    // Use latest Fabric API version for MC 1.21.10
+    modCompile 'net.fabricmc.fabric-api:fabric-api:0.92.0+1.21.2'
 }
 
-sourceCompatibility = 'Java 17'
+sourceCompatibility = 17
+targetCompatibility = 17
 
-targetCompatibility = 'Java 17'
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
